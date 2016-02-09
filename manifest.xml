@@ -1,0 +1,19 @@
+<package>
+  <description brief="ceres_amu">
+
+     ceres_amu
+
+  </description>
+  <author>amsl</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ceres_amu</url>
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="ceres_msgs"/>
+
+</package>
+
+
