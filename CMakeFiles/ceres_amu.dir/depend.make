@@ -5,9 +5,9 @@ CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: serial/serial.cpp
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: serial/serial.h
 
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: ./serial/serial.h
-CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/cpp/include/ceres_msgs/AMU_data.h
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: src/AMU_server.cpp
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: src/AMU_server.h
+CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/cpp/include/ceres_msgs/AMU_data.h
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/include/XmlRpcDecl.h
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/include/XmlRpcValue.h
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/include/ros/advertise_options.h
@@ -67,9 +67,9 @@ CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/include/rosconsol
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: ./serial/serial.h
-CMakeFiles/ceres_amu.dir/src/main.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/cpp/include/ceres_msgs/AMU_data.h
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: src/AMU_server.h
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/ceres_amu.dir/src/main.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/cpp/include/ceres_msgs/AMU_data.h
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /opt/ros/indigo/include/XmlRpcDecl.h
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /opt/ros/indigo/include/XmlRpcValue.h
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /opt/ros/indigo/include/ros/advertise_options.h

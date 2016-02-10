@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu
+CMAKE_SOURCE_DIR = /home/amsl/AMSL_ros_pkg/ceres_amu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu
+CMAKE_BINARY_DIR = /home/amsl/AMSL_ros_pkg/ceres_amu
 
 # Utility rule file for ROSBUILD_gensrv_cpp.
 
@@ -63,6 +63,6 @@ CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend:
-	cd /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amsl/AMSL_ros_pkg/ceres_amu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend
 

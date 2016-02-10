@@ -104,3 +104,56 @@ make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles
 make: *** [cmTryCompileExec2908755574/fast] エラー 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4175556317/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4175556317.dir/build.make CMakeFiles/cmTryCompileExec4175556317.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4175556317.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4175556317.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4175556317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4175556317.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4175556317.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4175556317 -rdynamic 
+CMakeFiles/cmTryCompileExec4175556317.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4175556317] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4175556317/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3754937949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3754937949.dir/build.make CMakeFiles/cmTryCompileExec3754937949.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3754937949.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3754937949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3754937949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3754937949.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3754937949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3754937949 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3754937949] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3754937949/fast] エラー 2
+
+

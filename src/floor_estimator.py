@@ -53,10 +53,10 @@ def amuCallback(data):
 		h += dt*v
 		#print count,	# for DEBUG
 		#print dt,
+		print vcount,
 		print g,	# for DEBUG
 		print v,	# for DEBUG
 		print h*pfh+1	# for DEBUG
-		print vcount,
 	else:
 		amu_flag = True
 	
@@ -65,10 +65,11 @@ def amuCallback(data):
 	else:
 		vcount = 0
 
-	if vcount > 30 and np.abs(v) < 0.3:
+	if vcount > 30 and np.abs(v) < 0.3:	# 補正（停止している場合，一番近い階にいると判断する）
 		v = 0
-		if 0.0 < np.abs(h) and np.abs(h) < 2.0:
-			h = 0
+		h = int(h*pfh+0.5) / pfh
+		#if 0.0 < np.abs(h) and np.abs(h) < 2.0:
+		#	h = 0
 
 	floor = h*pfh + 1.5
 

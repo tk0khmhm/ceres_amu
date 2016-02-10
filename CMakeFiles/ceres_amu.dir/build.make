@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu
+CMAKE_SOURCE_DIR = /home/amsl/AMSL_ros_pkg/ceres_amu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu
+CMAKE_BINARY_DIR = /home/amsl/AMSL_ros_pkg/ceres_amu
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ceres_amu.dir/depend.make
@@ -80,17 +80,17 @@ CMakeFiles/ceres_amu.dir/src/main.cpp.o: /opt/ros/indigo/share/geometry_msgs/pac
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /opt/ros/indigo/share/sensor_msgs/package.xml
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/manifest.xml
 CMakeFiles/ceres_amu.dir/src/main.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ceres_amu.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/src/main.cpp.o -c /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/src/main.cpp.o -c /home/amsl/AMSL_ros_pkg/ceres_amu/src/main.cpp
 
 CMakeFiles/ceres_amu.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres_amu.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/main.cpp > CMakeFiles/ceres_amu.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/ceres_amu/src/main.cpp > CMakeFiles/ceres_amu.dir/src/main.cpp.i
 
 CMakeFiles/ceres_amu.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres_amu.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/main.cpp -o CMakeFiles/ceres_amu.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/ceres_amu/src/main.cpp -o CMakeFiles/ceres_amu.dir/src/main.cpp.s
 
 CMakeFiles/ceres_amu.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/ceres_amu.dir/src/main.cpp.o.requires
@@ -129,17 +129,17 @@ CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/share/geometry_ms
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /opt/ros/indigo/share/sensor_msgs/package.xml
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/manifest.xml
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o -c /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/AMU_server.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o -c /home/amsl/AMSL_ros_pkg/ceres_amu/src/AMU_server.cpp
 
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/AMU_server.cpp > CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/ceres_amu/src/AMU_server.cpp > CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.i
 
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/src/AMU_server.cpp -o CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/ceres_amu/src/AMU_server.cpp -o CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.s
 
 CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o.requires:
 .PHONY : CMakeFiles/ceres_amu.dir/src/AMU_server.cpp.o.requires
@@ -178,17 +178,17 @@ CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: /opt/ros/indigo/share/geometry_msg
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: /opt/ros/indigo/share/sensor_msgs/package.xml
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/manifest.xml
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.o: /home/amsl/AMSL_ros_pkg/ceres_msgs/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ceres_amu.dir/serial/serial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/serial/serial.cpp.o -c /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/serial/serial.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ceres_amu.dir/serial/serial.cpp.o -c /home/amsl/AMSL_ros_pkg/ceres_amu/serial/serial.cpp
 
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres_amu.dir/serial/serial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/serial/serial.cpp > CMakeFiles/ceres_amu.dir/serial/serial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/amsl/AMSL_ros_pkg/ceres_amu/serial/serial.cpp > CMakeFiles/ceres_amu.dir/serial/serial.cpp.i
 
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres_amu.dir/serial/serial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/serial/serial.cpp -o CMakeFiles/ceres_amu.dir/serial/serial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/amsl/AMSL_ros_pkg/ceres_amu/serial/serial.cpp -o CMakeFiles/ceres_amu.dir/serial/serial.cpp.s
 
 CMakeFiles/ceres_amu.dir/serial/serial.cpp.o.requires:
 .PHONY : CMakeFiles/ceres_amu.dir/serial/serial.cpp.o.requires
@@ -230,6 +230,6 @@ CMakeFiles/ceres_amu.dir/clean:
 .PHONY : CMakeFiles/ceres_amu.dir/clean
 
 CMakeFiles/ceres_amu.dir/depend:
-	cd /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu /home/amsl/AMSL_ros_pkg/rwrc15/ceres_amu/CMakeFiles/ceres_amu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amsl/AMSL_ros_pkg/ceres_amu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu /home/amsl/AMSL_ros_pkg/ceres_amu/CMakeFiles/ceres_amu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ceres_amu.dir/depend
 
